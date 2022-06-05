@@ -1,0 +1,47 @@
+.wrapper{
+    max-width: 2000px;
+    margin:0 auto;
+    color:rgb(0, 0, 0);
+}
+
+#calendar{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+section{
+    margin:10px;
+}
+
+h1{
+    font-size:20px;
+    text-align: center;
+}
+
+table{
+    border-spacing: 0;
+    border-collapse:collapse;
+    text-align: center;
+    width:100%;
+}
+
+td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+td:first-child{
+    color:red;
+}
+
+td:last-child{
+    color:royalblue;
+}
+
+td.is-disabled{
+    color:#ccc;
+}
+
